@@ -1,0 +1,12 @@
+/* CharacterList.css */
+.character-list {
+  gap: 5px;
+  display: flex;
+  flex-direction: column; /* Ensure the content is displayed in a column layout */
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust this as needed */
+}
